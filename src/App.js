@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import HomePage from "./pages/HomePage";
+
 
 function App() {
   return (
     <div className="App">
-    <h1>Uncle Haji and Cepi </h1>
+      <HomePage />
     </div>
   );
 }
