@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomeCard() {
   return (
-    <div class="flex justify-evenly pt-5">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 pt-5 mx-14">
       <div>
         <a
           href="#"
