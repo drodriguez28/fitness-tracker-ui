@@ -2,9 +2,10 @@ import React, { useState } from "react";
 
 export default function NavMenu() {
   let Links = [
-    { name: "Workouts", link: "/" },
-    { name: "Routes", link: "/" },
-    { name: "Community", link: "/" },
+    { name: "Home", link: "/" },
+    { name: "Workouts", link: "/workouts" },
+    { name: "Routes", link: "/routes" },
+    { name: "Community", link: "/community" },
   ];
   let [open, setOpen] = useState(false);
   return (

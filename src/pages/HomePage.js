@@ -1,14 +1,13 @@
 import React from "react";
+import Carousel from "../components/Carousel";
 import HomeCard from "../components/HomeCard";
-import Footer from "../components/Footer";
-import NavMenu from "../components/NavMenu";
+
 
 export default function HomePage() {
   return (
-    <div>
-      <NavMenu/>
-      {/* <HomeCard/> */}
-      <Footer/>
+    <div class="pt-24">
+      <Carousel/>
+      <HomeCard/>
     </div>
   );
 }
