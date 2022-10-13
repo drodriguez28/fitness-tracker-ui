@@ -15,7 +15,7 @@ export default function NavMenu() {
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
           text-gray-800"
         >
-          <span className="text-3xl text-indigo-600 mr-1 pt-2">
+          <span className="text-3xl text-black mr-1 pt-2">
             <ion-icon name="walk-outline"></ion-icon>
           </span>
           Fitness Tracker
@@ -23,7 +23,7 @@ export default function NavMenu() {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl text-black absolute right-8 top-6 cursor-pointer md:hidden"
         >
           <ion-icon name={open ? "close-outline" : "menu-outline"}></ion-icon>
         </div>
