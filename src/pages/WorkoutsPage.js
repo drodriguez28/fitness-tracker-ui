@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function WorkoutsPage() {
   return (
-    <div>WorkoutsPage</div>
-  )
+    <div class="pt-24">
+      <h1>WorkoutsPage</h1>
+    </div>
+  );
 }

@@ -4,6 +4,9 @@ import NavMenu from "./components/NavMenu";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import WorkoutsPage from "./pages/WorkoutsPage";
+import CmtyPage from "./pages/CmtyPage";
+import RoutesPage from "./pages/RoutesPage";
+
 
 function App() {
   return (
@@ -14,15 +17,15 @@ function App() {
           <Route path="/" exact component={HomePage} />
         </Switch>
         <Switch>
-          <Route path="/workouts" exact component={WorkoutsPage} />
+          <Route path="/workouts" component={WorkoutsPage} />
         </Switch>
 
-        {/* <Switch>
-          <Route path="/routes" exact component={ContactUs} />
+        <Switch>
+          <Route path="/routes" component={RoutesPage} />
         </Switch>
         <Switch>
-          <Route path="/community" exact component={ContactUs} />
-        </Switch> */}
+          <Route path="/community" component={CmtyPage} />
+        </Switch>
         <Footer />
       </Router>
     </div>
