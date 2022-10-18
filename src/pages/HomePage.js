@@ -1,13 +1,13 @@
 import React from "react";
+import Carousel from "../components/Carousel";
 import HomeCard from "../components/HomeCard";
-import Footer from "../components/Footer";
+
 
 export default function HomePage() {
   return (
-    <div>
-      <h1 class="text-3xl font-bold ">Fitness Tracker</h1>
+    <div class="pt-24">
+      <Carousel/>
       <HomeCard/>
-      <Footer/>
     </div>
   );
 }
