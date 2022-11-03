@@ -14,17 +14,17 @@ function App() {
       <Router>
         <NavMenu />
         <Switch>
-          <Route path="/" exact component={HomePage} />
+          <Route exact path="/" component={HomePage} />
         </Switch>
         <Switch>
-          <Route path="/workouts" component={WorkoutsPage} />
+          <Route exact path="/workouts" component={WorkoutsPage} />
         </Switch>
 
         <Switch>
-          <Route path="/routes" component={RoutesPage} />
+          <Route exact path="/routes" component={RoutesPage} />
         </Switch>
         <Switch>
-          <Route path="/community" component={CmtyPage} />
+          <Route exact path="/community" component={CmtyPage} />
         </Switch>
         <Footer />
       </Router>
