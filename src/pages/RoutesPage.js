@@ -3,8 +3,6 @@ import React from "react";
 export default function RoutesPage() {
   return (
     <div class="pt-24">
-      <h1>Routes where you can exercise !</h1>
-
       <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-14 mt-5">
         <img class="rounded-t-lg" src="/eastroswell.jpg" alt="" />
 
