@@ -6,6 +6,7 @@ export default function NavMenu() {
     { name: "Workouts", link: "/workouts" },
     { name: "Routes", link: "/routes" },
     { name: "Community", link: "/community" },
+    { name: "Sign Up", link: "/signup" }
   ];
   let [open, setOpen] = useState(false);
   return (
